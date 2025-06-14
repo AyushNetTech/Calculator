@@ -36,7 +36,6 @@ body,html{
     border-radius: 40px;
     background: linear-gradient(315deg, rgb(41, 41, 40), #111);
     box-shadow:  -7px -7px 14px #d0d0d0, 7px 7px 14px #f0f0f0;
-    
 }
 #buttons{
     height: 380px;

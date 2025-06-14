@@ -3,6 +3,7 @@ let screen = document.getElementById("Screen");
 let num="";
 let splited=""
 let finalNo=""
+let ans=""
 let signClicked=false
 for(let i=0;i<btns.length;i++){
     btns[i].addEventListener("click",function(e){
@@ -31,9 +32,11 @@ function calculation(e){
             console.log(splited);
             finalNo=splited[splited.length-1]
             finalNo=finalNo.split("=")
-            screen.innerHTML=(parseInt(splited[0]))+(parseInt(finalNo[0]))
-            num=""
+            ans=(parseInt(splited[0]))+(parseInt(finalNo[0]))
+            screen.innerHTML=ans
+            num=ans
         }
+        signClicked=false
     }
     
 }
