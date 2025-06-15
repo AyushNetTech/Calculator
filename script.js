@@ -42,7 +42,7 @@ function calculationWithoutEval(e){
                 }
             }
             catch{
-                screen.innerHTML="Error"
+                screen.innerHTML='<span style="color:#ED1C24;">Error</span>'
                 num=""
             }
             
