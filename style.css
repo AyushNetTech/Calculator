@@ -16,7 +16,7 @@ body,html{
     justify-content: center;
 }
 #calculator{
-    height: 507px;
+    height: 600px;
     width: 400px;
     background-color: rgb(243, 243, 243);
     border-radius: 40px;
@@ -38,7 +38,7 @@ body,html{
     box-shadow:  -7px -7px 14px #d0d0d0, 7px 7px 14px #f0f0f0;
 }
 #buttons{
-    height: 380px;
+    height: 470px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -48,6 +48,19 @@ body,html{
     border-radius: 40px;
     overflow: hidden;
     padding: 5px 8px;
+}
+#cutsvg{
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    pointer-events: none;
+}
+#clear{
+    color: red;
+}
+#equalTo{
+    color: green;
+    font-size: 35px;
 }
 .btn{
      font-family: "Cantora One", sans-serif;
